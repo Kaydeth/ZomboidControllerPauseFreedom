@@ -1,0 +1,16 @@
+name=ControllerPauseFreedom
+poster=poster.png
+icon=icon.png
+id=ControllerPauseFreedom
+description=The goal of this mod is allow you to pause time and manipulate the UI with the same freedom that a mouse an keyboard player is afforded. <LINE>
+description=Removes some restrictions on when you can pause the game with a controller and allows you to navigate menus when paused. <LINE>
+description=<LINE>
+description=<H2>Features: <LINE><TEXT>
+description=* Allows player to pause time when a menu is open. Such as Invetory, Craft, Build, or Health menu. <LINE>
+description=* Allows player to pause time while moving a selection cursor. Such as when trying to pick up furniture. <LINE>
+description=* Allows player to open and close menus in the back button wheel while the game speed is paused. <LINE>
+description=* The pause button will still open the main menu when no menus are currently open. <LINE>
+author=Kaydeth
+versionMin=42.9.0
+modversion=1.0.0
+url=
