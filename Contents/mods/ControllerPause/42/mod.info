@@ -12,5 +12,5 @@ description=* Allows player to open and close menus in the back button wheel whi
 description=* The pause button will still open the main menu when no menus are currently open. <LINE>
 author=Kaydeth
 versionMin=42.9.0
-modversion=1.0.0
+modversion=1.0.1
 url=

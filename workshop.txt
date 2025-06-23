@@ -8,5 +8,7 @@ description=* Allows player to pause time when a menu is open. Such as Invetory,
 description=* Allows player to pause time while moving a selection cursor. Such as when trying to pick up furniture.
 description=* Allows player to open and close menus in the back button wheel while the game speed is paused.
 description=* The pause button will still open the main menu when no menus are currently open.
+description=
+description=Latest Version: 1.0.1
 tags=Build 42;Interface;QoL
 visibility=public

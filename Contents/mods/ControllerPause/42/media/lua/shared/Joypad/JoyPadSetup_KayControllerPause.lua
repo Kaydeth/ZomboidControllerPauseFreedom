@@ -136,10 +136,10 @@ function JoypadControllerData:onPressButton(button)
         return
     end
 
+    -- When you press start on the controller it should pause the game even if you hava e menu open
+    -- Hopefully none of the menus try to use the start button, since this will break that
     if button == Joypad.Start and joypadData.player and getSpecificPlayer(joypadData.player) then
         getPlayerBackButtonWheel(joypadData.player):onCommand("Pause")
-        -- setGameSpeed(0)
-        -- self:onPauseButtonPressed()
         return
     end
     
@@ -148,9 +148,8 @@ function JoypadControllerData:onPressButton(button)
     end
 
     -- if not joypadData.activeWhilePaused and isGamePaused() then
-    if not joypadData.activeWhilePaused and joypadData.inMainMenu then
-        return;
-    end
+    --     return;
+    -- end
 
     joypadData.focus:onJoypadDown(button, joypadData);
 end
